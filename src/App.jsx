@@ -1,7 +1,11 @@
+import { Route, Routes } from "react-router-dom";
+import DashboardPage from "./pages/DashboardPage";
 import "./App.css";
 
-function App() {
-  return <div className="font-bold text-xl text-primary">HOME</div>;
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<DashboardPage />} />
+    </Routes>
+  );
 }
-
-export default App;
