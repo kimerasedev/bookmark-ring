@@ -2,10 +2,10 @@
 
 @theme {
   /* ===== 다크 모드 (default) ===== */
-  --color-bg: #1b1b1d;
+  --color-bg: #222225;
   --color-sidebar: #151517;
   --color-sidebar-2: #262628;
-  --color-primary: #cde9fa;
+  --color-primary: #5fb5ff;
   --color-text: #e5e5e6;
   --color-muted: #94959a;
   --color-border: #28282a;
@@ -26,4 +26,8 @@ body {
   margin: 0;
   background-color: var(--color-bg);
   font-family: "Pretendard", system-ui, sans-serif;
+}
+
+input {
+  all: unset;
 }
